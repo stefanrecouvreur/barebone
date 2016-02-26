@@ -1,0 +1,97 @@
+body {
+	font-family: Tahoma;
+	font-size: 150%;
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+p {
+	line-height: 150%;
+}
+
+footer {
+	text-align: center;
+}
+
+nav {
+	text-align: right;	
+}
+
+li {
+	display:inline-block;
+	margin: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ecf0f1;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.logo {
+	background-color: #ea6153;
+	max-width: 5em;
+	width: auto;
+	height: 5em;
+	margin-top: -80px;
+	color: #FFF;
+	line-height: auto;
+	vertical-align: middle;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 5em;	
+}
+
+img {
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	max-width: 100%;
+	height: auto;
+		
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+body{
+width: 90%;
+}
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+body{
+width: 90%;
+}
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+
+body{
+width: 80%;
+}
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+body{
+width: 60%;
+}
+
+}  
